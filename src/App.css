@@ -1,0 +1,38 @@
+.App{
+    height: 100vh;
+}
+
+.header{
+    height: 200px;
+    background-color: rgb(219, 55, 55);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header,
+.footer{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.footer{
+    height: 100px;
+    background-color: rgb(38, 111, 57);
+    position: fixed;
+    bottom: 0;
+}
+.body{
+    margin-top: 200px;
+    padding: 30px;
+}
+.add input{
+    margin-right: 10px;
+}
+.btn-add{
+
+}
+.item li{
+    display: inline-block;
+    width: 200px;
+}
